@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VEYRO | Beyond the Ordinary</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #111110;
+      color: #f2eee5;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 7%;
+      border-bottom: 1px solid #393834;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 6px;
+    }
+
+    nav a {
+      color: #f2eee5;
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #171715, #34332f, #171715);
+    }
+
+    .hero p {
+      letter-spacing: 5px;
+      font-size: 11px;
+      color: #c8c1b4;
+    }
+
+    h1 {
+      font-size: clamp(55px, 12vw, 120px);
+      letter-spacing: 12px;
+      margin: 25px 0;
+    }
+
+    .hero h2 {
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 5px;
+      margin-bottom: 35px;
+    }
+
+    .shop {
+      display: inline-block;
+      border: 1px solid #e9e3d7;
+      color: #e9e3d7;
+      text-decoration: none;
+      padding: 16px 35px;
+      font-size: 11px;
+      letter-spacing: 3px;
+    }
+
+    .shop:hover {
+      background: #e9e3d7;
+      color: #111110;
+    }
+
+    .collection {
+      text-align: center;
+      padding: 75px 20px;
+    }
+
+    .collection h2 {
+      letter-spacing: 5px;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .collection p {
+      color: #aaa69e;
+      font-size: 13px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #393834;
+      color: #aaa69e;
+      font-size: 10px;
+      letter-spacing: 3px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">VEYRO</div>
+    <nav>
+      <a href="#home">HOME</a>
+      <a href="#shop">SHOP</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <p>THE NEXT GENERATION OF STREETWEAR</p>
+    <h1>VEYRO</h1>
+    <h2>BEYOND THE ORDINARY.</h2>
+    <a href="#shop" class="shop">DISCOVER COLLECTION 001</a>
+  </section>
+
+  <section class="collection" id="shop">
+    <h2>COLLECTION 001</h2>
+    <p>Something different is coming.</p>
+  </section>
+
+  <footer>
+    VEYRO © 2026 — BEYOND THE ORDINARY.
+  </footer>
+
+</body>
+</html>
